@@ -5,16 +5,12 @@
 		<Description>Expression mapping (OData) extensions for AutoMapper</Description>
 		<TargetFrameworks>net8.0;net9.0</TargetFrameworks>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
-		<AssemblyOriginatorKeyFile>..\..\AutoMapper.snk</AssemblyOriginatorKeyFile>
-		<SignAssembly>true</SignAssembly>
-		<PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
 		<PackageId>AutoMapper14.Extensions.ExpressionMapping</PackageId>
 		<PackageIcon>icon.png</PackageIcon>
 		<PackageProjectUrl>https://automapper.org</PackageProjectUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<RepositoryType>git</RepositoryType>
-		<RepositoryUrl>https://github.com/AutoMapper/AutoMapper.Extensions.ExpressionMapping</RepositoryUrl>
-		<MinVerTagPrefix>v</MinVerTagPrefix>
+		<RepositoryUrl>https://github.com/gordon-matt/AutoMapper.Extensions.ExpressionMapping/tree/AutoMapper14</RepositoryUrl>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
@@ -31,10 +27,6 @@
 
 	<ItemGroup>
 		<PackageReference Include="AutoMapper" Version="14.0.0" />
-		<PackageReference Include="MinVer" Version="6.0.0">
-			<PrivateAssets>all</PrivateAssets>
-			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-		</PackageReference>
 		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
 	</ItemGroup>
 
